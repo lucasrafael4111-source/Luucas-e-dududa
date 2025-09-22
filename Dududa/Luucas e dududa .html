@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surpresa Romântica 💖</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #ffe0f0, #ffccd5);
+    color: #000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  header {
+    text-align: center;
+    padding: 30px 10px;
+    background-color: #ffb6c1;
+  }
+  header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #800000;
+  }
+  header p {
+    font-size: 1.2em;
+    color: #006400;
+  }
+
+  /* Timeline */
+  .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ff69b4;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  .container-timeline {
+    padding: 20px 30px;
+    position: relative;
+    width: 50%;
+  }
+  .container-timeline.left { left: 0; }
+  .container-timeline.right { left: 50%; }
+  .container-timeline::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: #ff69b4;
+    border: 4px solid #fff;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .container-timeline.right::after { left: -13px; }
+  .content {
+    padding: 20px 30px;
+    background-color: #fff0f5;
+    position: relative;
+    border-radius: 6px;
+  }
+  .content h3 { margin-top:0; }
+  .content p { margin: 5px 0 0 0; }
+
+  /* Fotos estilo polaroid */
+  .photos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 40px 0;
+  }
+  .polaroid {
+    width: 200px;
+    background-color: white;
+    padding: 10px 10px 25px 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  .polaroid img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .polaroid:hover { transform: scale(1.05); }
+
+  /* Frases */
+  .phrases {
+    text-align: center;
+    margin: 40px 20px;
+    font-size: 1.3em;
+    color: #800000;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffb6c1;
+    color: #006400;
+  }
+
+  audio {
+    display: block;
+    margin: 20px auto;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Surpresa para Minha Namorada 💖</h1>
+  <p>Feito com carinho e amor 💕</p>
+</header>
+
+<!-- Timeline -->
+<div class="timeline">
+  <div class="container-timeline left">
+    <div class="content">
+      <h3>21/03</h3>
+      <p>Nosso primeiro beijo 💋</p>
+    </div>
+  </div>
+  <div class="container-timeline right">
+    <div class="content">
+      <h3>03/05</h3>
+      <p>Dia do rodeio 🐴</p>
+    </div>
+  </div>
+  <div class="container-timeline left">
+    <div class="content">
+      <h3>16/05</h3>
+      <p>Meu aniversário 🎉</p>
+    </div>
+  </div>
+  <div class="container-timeline right">
+    <div class="content">
+      <h3>11/07</h3>
+      <p>Nosso pedido de namoro 💑</p>
+    </div>
+  </div>
+  <div class="container-timeline left">
+    <div class="content">
+      <h3>Todo dia 11</h3>
+      <p>Aniversário de namoro ❤️</p>
+    </div>
+  </div>
+</div>
+
+<!-- Fotos estilo polaroid -->
+<div class="photos">
+  <div class="polaroid"><img src="Lucas e dududa (1).jpeg" alt="Foto 1"></div>
+  <div class="polaroid"><img src="Lucas e dududa (2).jpeg" alt="Foto 2"></div>
+  <div class="polaroid"><img src="Lucas e dududa (3).jpeg" alt="Foto 3"></div>
+  <div class="polaroid"><img src="Lucas e dududa (4).jpeg" alt="Foto 4"></div>
+  <div class="polaroid"><img src="Lucas e dududa (5).jpeg" alt="Foto 5"></div>
+  <div class="polaroid"><img src="Lucas e dududa (6).jpeg" alt="Foto 6"></div>
+  <div class="polaroid"><img src="Lucas e dududa (7).jpeg" alt="Foto 7"></div>
+  <div class="polaroid"><img src="Lucas e dududa (8).jpeg" alt="Foto 8"></div>
+  <div class="polaroid"><img src="Lucas e dududa (9).jpeg" alt="Foto 9"></div>
+  <div class="polaroid"><img src="Lucas e dududa (10).jpeg" alt="Foto 10"></div>
+</div>
+
+<!-- Frases -->
+<div class="phrases">
+  <p>Meu bem, espero que você gostou, fiz com muito carinho e dedicação kakakak 🤍</p>
+  <p>Eu tchamo</p>
+  <p>Lhe amo</p>
+  <p>Amo tu</p>
+  <p>Amo tu pixelll s2 kakakaka</p>
+</div>
+
+<!-- Música de fundo -->
+<audio controls autoplay loop>
+  <source src="https://open.spotify.com/playlist/0wRhqtcgdt8nKpyAS3xl1v?si=yGLxwuF2TfakuvQ1Nz4OUw&pi=SRN0vod_TpSOM" type="audio/mpeg">
+  Seu navegador não suporta áudio.
+</audio>
+
+<footer>
+  Feito com amor 💖
+</footer>
+
+</body>
+</html>
